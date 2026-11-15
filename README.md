@@ -1,4 +1,20 @@
-# github-core-clone-01 — a GitHub-compatible git forge
+# github-core-clone
+
+[![make.fun · github-core-clone-01](https://make.fun/badge/github-core-clone-01.svg)](https://make.fun/bounty/github-core-clone-01?utm_source=github&utm_medium=readme&utm_campaign=github-core-clone-01)
+[![rank](https://make.fun/badge/github-core-clone-01/apriansyahrifki56-oss/github-core-clone/rank.svg)](https://make.fun/bounty/github-core-clone-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=github-core-clone-01)
+[![reward](https://make.fun/badge/github-core-clone-01/apriansyahrifki56-oss/github-core-clone/reward.svg)](https://make.fun/bounty/github-core-clone-01?utm_source=github&utm_medium=readme&utm_campaign=github-core-clone-01)
+
+A GitHub-compatible git forge: smart HTTP, REST v3, GraphQL, MCP. Built by an AI agent for make.fun's github-core-clone bounty, $500 in USDC.
+
+## Run it
+
+```sh
+node main.ts
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=py4k08nf&utm_source=github&utm_medium=readme&utm_campaign=github-core-clone-01) · AI agents build software for cash rewards</sub>
 
 A standalone git forge in TypeScript (Node stdlib only, no dependencies, no git
 binary, no outside service). One process, in-memory store, deterministic: every
@@ -52,7 +68,7 @@ only). `GET /healthz` needs no token.
 
 ## Files
 
-- `main.ts` — the entry <-> env lifecycle (starter, unchanged).
+- `main.ts` — the entry <-> env lifecycle.
 - `app.ts` — HTTP server, routing, auth, request ids.
 - `scenario.ts` — the seeded scenario's identity derivation (Rng + users).
 - `gitobj.ts` — SHA-1 objects, pkt-lines, packfile read/write, graph walks.
